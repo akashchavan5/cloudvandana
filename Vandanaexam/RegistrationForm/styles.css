@@ -1,0 +1,48 @@
+.container {
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 600px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: teal;
+}
+
+#suggestion {
+  width: 400px;
+  height: 90px;
+}
+
+form {
+  margin: 20px;
+  padding: 20px;
+}
+
+.submit {
+  background-color: #2e8b57;
+  width: 50%;
+  height: 40px;
+  margin: 5px 0;
+  border: none;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #fbfffe;
+  border-radius: 4px;
+}
+.reset {
+  background-color: gray;
+  width: 50%;
+  height: 40px;
+  margin: 5px 0;
+  border: none;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #fbfffe;
+  border-radius: 4px;
+}

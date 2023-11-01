@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registeration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Customer Survey Form</h1>
+    <div class="container">
+      <form action="" class="form">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" />
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div>
+          <label>
+            Is this first time You are using our products & service?
+          </label>
+          <input type="radio" name="product" value="Yes" placeholder="Yes" />
+          <label for="product">Yes</label>
+          <input type="radio" name="product" value="No" placeholder="No" />
+          <label for="product">No</label>
+        </div>
+        <div>
+          <label> Would you suggest to your friends and colleague? </label>
+          <input type="radio" name="suggest" value="Yes" placeholder="Yes" />
+          <label for="suggest">Yes</label>
+          <input type="radio" name="suggest" value="No" placeholder="No" />
+          <label for="suggest">No</label>
+        </div>
+        <div>
+          <label> How satisfied are you with our company? </label>
+          <input
+            type="radio"
+            name="company"
+            value="Satisfied"
+            placeholder="Satisfied" />
+          <label for="company">Satisfied</label>
+          <input
+            type="radio"
+            name="company"
+            value="Undecided"
+            placeholder="Undecided" />
+          <label for="company">Undecided</label>
+          <input
+            type="radio"
+            name="company"
+            value="Unsatisfied"
+            placeholder="Unsatisfied" />
+          <label for="company">Unsatisfied</label>
+        </div>
+        <div>
+          <label for="suggestion">
+            Do you have any suggestions to improve our service?
+          </label>
+          <textarea
+            name="suggestion"
+            id="suggestion"
+            cols="30"
+            rows="10"></textarea>
+        </div>
+        <div>
+          <input
+            class="submit"
+            type="submit"
+            onclick="submitForm()"
+            value="submit" />
+          <input class="reset" type="reset" value="reset" />
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

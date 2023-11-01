@@ -1,0 +1,28 @@
+.container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 500px;
+  height: 630px;
+  border: 1px solid black;
+}
+
+.keys input[type="button"] {
+  background-color: blanchedalmond;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 5px;
+}
+
+#display {
+  padding: 10px;
+  margin: 10px;
+  width: 450px;
+  height: 100px;
+}
+
+input {
+  font-size: 50px;
+}
